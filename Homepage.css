@@ -152,61 +152,67 @@
     .maincontainer1{
         display: flex;
         padding: 20px 20px ;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         justify-content: space-evenly;
 
     }
     .subcontainer1{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 20px 40px;
+        background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer2{
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         padding: 20px 50px;
+        background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer3{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         padding: 20px 50px;
+        background: rgba(196, 196, 196, 0.17);
     }
     .maincontainer2{
         display: flex;
         padding: 20px 0px ;
-        border: 1px solid aquamarine;
+        /* border: 1px solid aquamarine; */
         justify-content: space-evenly;
 
     }
     .subcontainer4{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 20px 40px;
+        background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer5{
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         padding: 20px 50px;
+        background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer6{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         padding: 20px 50px;
+        background: rgba(196, 196, 196, 0.17);
     }
     .dealscontainer{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         display: flex;
         justify-content: space-around;
         padding: 20px 20px;
     }
     .deal1{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 20px 20px;
     }
     .deal2{
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         padding: 20px 20px;
     }
     .deal3{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 20px 20px;
     }
     .deal4{
-        border: 1px solid aquamarine;
+        /* border: 1px solid aquamarine; */
         padding: 20px 20px;
     }
     .deal1 h3{
@@ -241,7 +247,25 @@
         width: 20px ;
         height: 24px;
     }
-
+    .about{
+        /* border: 1px solid #295251; */
+        padding: 20px 20px;
+    }
+    .about h4{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        color: #333333;
+    }
+    .about p{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #C4C4C4;
+        display: inline-block;
+    }
     
 
     
