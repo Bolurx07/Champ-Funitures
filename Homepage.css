@@ -9,13 +9,17 @@
         flex-direction: row;
         justify-content: space-between;
         height: 80px;
-        padding: 20px 10%;
-        border: 1px solid green;
+        padding: 20px;
+        padding-right: 30px;
+        /* border: 1px solid green; */
+        width: 80%;
+        margin: auto;
     }
+   
     .logo {
         cursor: pointer;
         /* width: 10%; */
-        width: 87px;
+        /* width: 87px; */
         height: 28px;
         left: 165px;
         top: 50px;
@@ -25,15 +29,16 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
+        
         }
     .navlinks {
         display: flex;
-        /* flex: 50%; */
-        width: 100%;
         list-style-type: none;
         margin-top: 10px;
+        margin-left: 100px;
         justify-content: space-between;
-        /* padding: 0px 20px; */
+        /* padding: 10px; */
+        
     }
 
     .navlinks li{ 
@@ -52,11 +57,7 @@
     .navlinks li a::marker {
         color: red;
     }
-    /* ul {
-        
-        display: flex;
-        justify-content: space-evenly;
-    } */
+
     .navbutton{ 
         padding: 10px 5px;
         font-family: 'Raleway';
@@ -74,6 +75,177 @@
     .navbutton a {
         color: #FFFFFF;
         text-decoration: none;}
+
+    .main-page{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 41%;
+            padding: 30px 30px;
+            height: 69%;
+            top: 233px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.3);backdrop-filter: blur(50px);
+        }
+    .main-page h1 {
+            text-align: justify;
+        }
+    .main-image {
+            position: relative;
+            width: 1032px;
+            height: 762px;
+            left: 307px;
+            top: 10px;
+        }
+    .header2container{
+            /* display: flex; */
+            justify-content: space-between;
+            margin-top: 60px;
+            display: flex;
+            
+            
+        }
+    .header2 {
+            font-family: Raleway;
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 0em;
+            text-align: left;
+            }
+
+    .subheader2{ 
+            height: 11px;
+            width: 59px;
+            text-decoration: none;
+            position: relative;
+            top: 15px;
+            left: 380px;
+            font-family: Raleway;
+            font-weight: 500;
+            color:#333333;
+            ;
+            
+            }
+    
+    .miniheader ul{
+        display: inline-flex;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+        position: relative;
+        left: 450px; 
+    }
+    .miniheader ul li{
+        padding: 0px 25px;  
+    }
+    .miniheader ul li a{
+        text-decoration: none;  
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px; 
+        color: #A1A6BA ;
+    }
+    #all{
+        color: #333333;
+    }
+    .maincontainer1{
+        display: flex;
+        padding: 20px 20px ;
+        border: 1px solid red;
+        justify-content: space-evenly;
+
+    }
+    .subcontainer1{
+        border: 1px solid blue;
+        padding: 20px 40px;
+    }
+    .subcontainer2{
+        border: 1px solid pink;
+        padding: 20px 50px;
+    }
+    .subcontainer3{
+        border: 1px solid green;
+        padding: 20px 50px;
+    }
+    .maincontainer2{
+        display: flex;
+        padding: 20px 0px ;
+        border: 1px solid aquamarine;
+        justify-content: space-evenly;
+
+    }
+    .subcontainer4{
+        border: 1px solid blue;
+        padding: 20px 40px;
+    }
+    .subcontainer5{
+        border: 1px solid pink;
+        padding: 20px 50px;
+    }
+    .subcontainer6{
+        border: 1px solid green;
+        padding: 20px 50px;
+    }
+    .dealscontainer{
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 20px;
+    }
+    .deal1{
+        border: 1px solid red;
+        padding: 20px 20px;
+    }
+    .deal2{
+        border: 1px solid pink;
+        padding: 20px 20px;
+    }
+    .deal3{
+        border: 1px solid blue;
+        padding: 20px 20px;
+    }
+    .deal4{
+        border: 1px solid aquamarine;
+        padding: 20px 20px;
+    }
+    .deal1 h3{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 63px;
+        color: #333333;
+    }
+    .deal2 p, .deal3 p, .deal4 p {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        color: #333333;
+        position: relative; 
+        top: 100px;   
+    }
+    #subdeals {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #C4C4C4;
+    }
+    #subdeals img{
+        position: absolute;
+        top: -55px;
+        width: 20px ;
+        height: 24px;
+    }
+
+    
+
+    
+    
 
     
     
