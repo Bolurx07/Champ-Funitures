@@ -13,7 +13,7 @@
         justify-content: space-between;
         height: 80px;
         padding: 20px;
-        width: 1230px;
+        /* width: 1230px; */
     }
     .logo {
         cursor: pointer;
@@ -30,7 +30,7 @@
         list-style-type: none;
         margin-top: 12px;
         margin-left: 200px;
-        width: 70%;
+        /* width: 70%; */
         justify-content: space-between;
     }
     .navlinks li a:hover{ 
@@ -67,14 +67,14 @@
         text-decoration: none;
     }
     .backgroundcontainer{
-        width: 1310px;
+        /* width: 1310px; */
         height: 765px;
     }
     .main-page{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 41%;
+        /* width: 41%; */
         padding: 30px 30px;
         height: 69%;
         top: 233px;
@@ -98,7 +98,7 @@
         margin-top: 10px; margin-bottom: 10px;
     }
     #main-image {
-        width: 1032px;
+        /* width: 1032px; */
         height: 762px;
         z-index: 1;
         justify-items: right;
@@ -118,7 +118,7 @@
         right: 30px;
     }
     .mainheader2{
-        width: 1410px;
+        /* width: 1410px; */
         height: 960px;
     }
     .header2container{
@@ -217,10 +217,11 @@
     #subprice{
         text-decoration: line-through;
     }
+    .maindeals
     .dealscontainer{
         display: flex;
         justify-content: space-around;
-        padding: 10px 20px;
+        padding: 20px 20px;
     }
     .deal1{
         padding: 20px 20px;
@@ -285,10 +286,14 @@
     }
     .aboutcontainer{
         display: flex;
-        width: 1352px;
+        /* width: 13px; */
+        padding: 10px 10px;
     }
     .aboutcontainer2{
         display: flex;
+    }
+    #contain{
+        margin-top: 20px;
     }
     .aboutheader{
         color:#333333;
@@ -354,7 +359,7 @@
         margin-top: 20px;  
     }
     .customercontent{
-        width: 1009px;
+        /* width: 1009px; */
         height: 93px;
         font-weight: 500;
         font-size: 18px;
@@ -365,7 +370,7 @@
     }
 
     footer{
-        width: 1344px;
+        /* width: 1344px; */
         height: 617px;
         background-color:#295251;
         padding: 100px 100px;
