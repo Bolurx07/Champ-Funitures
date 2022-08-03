@@ -1,8 +1,11 @@
 *
  { box-sizing: border-box;
-    box-shadow: 10%;
     margin: 0;
     padding: 0;
+ }
+ body{
+    font-family: 'Raleway';
+    font-style: normal;
  }
     header {
         display: flex;
@@ -10,42 +13,34 @@
         justify-content: space-between;
         height: 80px;
         padding: 20px;
-        padding-right: 30px;
-        /* border: 1px solid green; */
-        width: 80%;
-        margin: auto;
+        width: 1230px;
     }
-   
     .logo {
         cursor: pointer;
-        /* width: 10%; */
-        /* width: 87px; */
         height: 28px;
-        left: 165px;
-        top: 50px;
         margin-top: 10px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
-        
         }
     .navlinks {
         display: flex;
         list-style-type: none;
-        margin-top: 10px;
-        margin-left: 100px;
+        margin-top: 12px;
+        margin-left: 200px;
+        width: 70%;
         justify-content: space-between;
-        /* padding: 10px; */
-        
     }
-
+    .navlinks li a:hover{ 
+        color: powderblue;
+    }
     .navlinks li{ 
         padding: 0px 20px;
     }
     .navlinks li a {
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 20px;
         font-weight: 400;
         line-height: 23px;
@@ -54,64 +49,89 @@
         text-decoration: none;
         transition: all 0.3s ease 0s;
     }
-    .navlinks li a::marker {
-        color: red;
-    }
-
     .navbutton{ 
-        padding: 10px 5px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 21px;
         letter-spacing: 0.03em;
+        padding: 10px 5px;
         width: 177px;
         height: 50px;
         background: #295251;
-        border-radius: 10px;
         justify-content: space-between;
     }
     .navbutton a {
         color: #FFFFFF;
-        text-decoration: none;}
-
+        text-decoration: none;
+    }
+    .backgroundcontainer{
+        width: 1310px;
+        height: 765px;
+    }
     .main-page{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 41%;
-            padding: 30px 30px;
-            height: 69%;
-            top: 233px;
-            position: absolute;
-            background-color: rgba(255, 255, 255, 0.3);backdrop-filter: blur(50px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 41%;
+        padding: 30px 30px;
+        height: 69%;
+        top: 233px;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.3);backdrop-filter: blur(50px);
+        z-index: 2;
         }
-    .main-page h1 {
-            text-align: justify;
+    .main-page h1{
+        width: 480px;
+        height: 222px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
         }
-    .main-image {
-            position: relative;
-            width: 1032px;
-            height: 762px;
-            left: 307px;
-            top: 10px;
-            max-width: 100%;
+    .main-page p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        width: 390px;
+        height: 82px;
+        margin-top: 10px; margin-bottom: 10px;
+    }
+    #main-image {
+        width: 1032px;
+        height: 762px;
+        z-index: 1;
+        justify-items: right;
+        margin-left: 20%;
         }
+    #searchbar{
+        width: 370px;
+        height: 30px;
+        border: none;
+        padding: 10px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+    }
+    #searchicon{
+        position: relative;
+        top: 5px;
+        right: 30px;
+    }
+    .mainheader2{
+        width: 1410px;
+        height: 1160px;
+    }
     .header2container{
-            /* display: flex; */
             justify-content: space-between;
             margin-top: 60px;
             display: flex;
-            
-            
         }
     .header2 {
-            font-family: Raleway;
+            font-family: 'Raleway';
             font-size: 34px;
             font-weight: 700;
             letter-spacing: 0em;
-            text-align: left;
+            margin-left: 100px;
             }
 
     .subheader2{ 
@@ -124,8 +144,6 @@
             font-family: Raleway;
             font-weight: 500;
             color:#333333;
-            ;
-            
             }
     
     .miniheader ul{
@@ -152,68 +170,68 @@
     }
     .maincontainer1{
         display: flex;
-        padding: 20px 20px ;
-        /* border: 1px solid red; */
+        padding: 20px 20px;
         justify-content: space-evenly;
 
     }
     .subcontainer1{
-        /* border: 1px solid blue; */
         padding: 20px 40px;
         background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer2{
-        /* border: 1px solid pink; */
         padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer3{
-        /* border: 1px solid green; */
         padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
     }
     .maincontainer2{
         display: flex;
         padding: 20px 0px ;
-        /* border: 1px solid aquamarine; */
         justify-content: space-evenly;
 
     }
     .subcontainer4{
-        /* border: 1px solid blue; */
         padding: 20px 40px;
         background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer5{
-        /* border: 1px solid pink; */
         padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer6{
-        /* border: 1px solid green; */
         padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
     }
+    #subcontainerheading{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    #subcontaineramount{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+    #subprice{
+        text-decoration: line-through;
+    }
     .dealscontainer{
-        /* border: 1px solid green; */
         display: flex;
         justify-content: space-around;
         padding: 20px 20px;
     }
     .deal1{
-        /* border: 1px solid red; */
         padding: 20px 20px;
     }
     .deal2{
-        /* border: 1px solid pink; */
         padding: 20px 20px;
     }
     .deal3{
-        /* border: 1px solid blue; */
         padding: 20px 20px;
     }
     .deal4{
-        /* border: 1px solid aquamarine; */
         padding: 20px 20px;
     }
     .deal1 h3{
@@ -267,6 +285,7 @@
     }
     .aboutcontainer{
         display: flex;
+        width: 1352px;
     }
     .aboutcontainer2{
         display: flex;
@@ -342,7 +361,6 @@
         line-height: 21px;
         padding: 10px 10px;
         color: #333333;
-        border: 1px solid black;
         margin-top: 20px; margin-left: 55px;
     }
 
@@ -362,7 +380,6 @@
     }
     .footercontainer{
         display: flex;
-        border: 1px solid grey;
         margin-top: 80px;
         
     }
@@ -390,13 +407,19 @@
         flex: 60%;
         margin-left: 150px;
         justify-content: space-between;
-        border: 1px solid red;
     }
     .footersubcontainer ul{
         list-style: none;
         color: #FFFFFF;
     }
+    .footersubcontainer ul li{padding: 5px;}
     .footersubcontainer ul li a {
         text-decoration: none; 
         color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        
     }

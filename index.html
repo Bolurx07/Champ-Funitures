@@ -19,14 +19,19 @@
     <button class="navbutton"><a href="#" >Create Account</a></button>
 </header>
 <body>
-    <img src="Images\main image.png" alt="Main background" class="main-image">
+    <div class="backgroundcontainer">
+        <img src="Images\main image.png" alt="Main background" id="main-image">
 
-    <div class="main-page">
-        <h1>We Help You Make Modern Furniture</h1>
-        <p>We will help you design an elegant and luxurious furniture by top furnture designers.</p>
-        <input type="search" name="searchbar" id="searchbar" placeholder="Explore Funiture">
+        <div class="main-page">
+            <h1>We Help You Make Modern Furniture</h1>
+            <p>We will help you design an elegant and luxurious furniture by top furnture designers.</p>
+            <form action="">
+                <input type="search" name="searchbar" id="searchbar" placeholder="Explore Funiture">
+                <img src="\Images\searchicon.svg" id="searchicon">
+            </form>
+        </div>
     </div>
-    <section>
+    <section class="mainheader2">
         
         <div class="header2container">
             <h2 class="header2">Products</h2>
@@ -44,41 +49,53 @@
         <br>
         <div class="maincontainer1">
             <div class="subcontainer1">
-                <p>Hand Base Lamp</p>
-                <p>$36.00</p>
-                <p>$40.00</p>
+                <p id="subcontainerheading">Hand Base Lamp</p>
+                    <div id="subcontaineramount">
+                        <p>$36.00</p>
+                        <p id="subprice">$40.00</p>
+                    </div>
                 <img src="\Images\hand base lamp.png" alt="Hand Base Lamp" width="183px" height="290px">
             </div>
             <div class="subcontainer2">
-                <p>Vintage Chair</p>
-                <p>$85.00</p>
-                <p>$65.00</p>
+                <p id="subcontainerheading">Vintage Chair</p>
+                <div id="subcontaineramount">
+                    <p>$85.00</p>
+                    <p id="subprice">$65.00</p>
+                </div>
                 <img src="\Images\vintage chair.png" alt="Vintage Chair" width="183px" height="290px">
             </div>
             <div class="subcontainer3">
-                <p>Lamp Tool</p>
-                <p>$46.00</p>
-                <p>$56.00</p>
+                <p id="subcontainerheading">Lamp Tool</p>
+                <div id="subcontaineramount">
+                    <p>$46.00</p>
+                    <p id="subprice">$56.00</p>
+                </div>
                 <img src="\Images\lamp stool.png" alt="Lamp stool" width="183px" height="290px">
             </div>
         </div>
         <div class="maincontainer2">
             <div class="subcontainer4">
-                <p>Stylish Chair</p>
-                <p>$45.00</p>
-                <p>$58.00</p>
+                <p id="subcontainerheading">Stylish Chair</p>
+                <div id="subcontaineramount">
+                    <p>$45.00</p>
+                    <p id="subprice">$58.00</p>
+                </div>
                 <img src="\Images\stylish-sofa-chair.png" alt="Stylish chair" width="183px" height="290px">
             </div>
             <div class="subcontainer5">
-                <p>Vintage Chair</p>
-                <p>$65.00</p>
-                <p>$75.00</p>
+                <p id="subcontainerheading">Vintage Chair</p>
+                <div id="subcontaineramount">
+                    <p>$65.00</p>
+                    <p id="subprice">$75.00</p>
+                </div>
                 <img src="\Images\Vintage chair-2.png" alt="Stackable chair" width="183px" height="290px">
             </div>
             <div class="subcontainer6">
-                <p>Stackable Chair</p>
-                <p>$87.00</p>
-                <p>$97.00</p>
+                <p id="subcontainerheading">Stackable Chair</p>
+                <div id="subcontaineramount">
+                    <p>$87.00</p>
+                    <p id="subprice">$97.00</p>
+                </div>
                 <img src="\Images\Stackable chair.png" alt="Stackable chair" width="183px" height="290px">
             </div>
         </div>
@@ -173,7 +190,7 @@
                     <li>Useful links</li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Reviews</a></li>
-                    <li><a href="#">deals</a></li>
+                    <li><a href="#">Deals</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
                 <ul>
