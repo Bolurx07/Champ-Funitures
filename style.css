@@ -5,19 +5,19 @@
  }
  body{
     font-family: 'Raleway';
-    font-style: normal;
+    /* font-style: normal; */
  }
     header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 80px;
-        padding: 20px;
+        padding: 20px 20px;
     }
     .logo {
         cursor: pointer;
         height: 28px;
         margin-top: 10px;
+        margin-left: 120px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -29,7 +29,6 @@
         list-style-type: none;
         margin-top: 12px;
         margin-left: 200px;
-        width: 70%;
         justify-content: space-between;
     }
     .navlinks li a:hover{ 
@@ -46,7 +45,6 @@
         letter-spacing: 0em;
         color: #333333;
         text-decoration: none;
-        transition: all 0.3s ease 0s;
     }
     .navbutton{ 
         font-family: 'Raleway';
@@ -56,29 +54,27 @@
         line-height: 21px;
         letter-spacing: 0.03em;
         padding: 10px 5px;
-        width: 177px;
-        height: 50px;
         background: #295251;
-        justify-content: space-between;
+        margin-right: 120px;
     }
     .navbutton a {
         color: #FFFFFF;
         text-decoration: none;
     }
-    .backgroundcontainer{
-        height: 765px;
+    .navbutton a:hover{
+        color: powderblue;
     }
+
+    #main-image {
+            width: 1032px;
+            height: 762px; 
+            margin-left: 23%;
+            }
     .main-page{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 41%;
         padding: 30px 30px;
-        height: 69%;
-        top: 233px;
         position: absolute;
+        top: 263px;
         background-color: rgba(255, 255, 255, 0.3);backdrop-filter: blur(50px);
-        z-index: 2;
         }
     .main-page h1{
         width: 480px;
@@ -95,13 +91,6 @@
         height: 82px;
         margin-top: 10px; margin-bottom: 10px;
     }
-    #main-image {
-        width: 1032px;
-        height: 762px;
-        z-index: 1;
-        justify-items: right;
-        margin-left: 20%;
-        }
     #searchbar{
         width: 370px;
         height: 30px;
@@ -115,13 +104,11 @@
         top: 5px;
         right: 30px;
     }
-    .mainheader2{
-        height: 960px;
-    }
     .header2container{
             justify-content: space-between;
             margin-top: 60px;
             display: flex;
+            cursor: pointer;
         }
     .header2 {
             font-family: 'Raleway';
@@ -160,7 +147,10 @@
         font-style: normal;
         font-weight: 500;
         font-size: 18px; 
-        color: #A1A6BA ;
+        color: #A1A6BA;
+    }
+    .miniheader ul li a:hover{
+        color: powderblue;
     }
     #all{
         color: #333333;
@@ -169,6 +159,7 @@
         display: flex;
         padding: 20px 20px;
         justify-content: space-evenly;
+        
 
     }
     .subcontainer1{
@@ -202,9 +193,11 @@
         background: rgba(196, 196, 196, 0.17);
     }
     #subcontainerheading{
+        font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 28px;
+        cursor: pointer;
     }
     #subcontaineramount{
         display: flex;
@@ -218,6 +211,9 @@
         display: flex;
         justify-content: space-around;
         padding: 10px 20px;
+    }
+    .maindeals{
+        margin-left: 30px;
     }
     .deal1{
         padding: 20px 20px;
@@ -238,7 +234,7 @@
         font-size: 54px;
         line-height: 63px;
         color: #333333;
-        margin-left: 10px;
+        /* margin-left: 30px; */
     }
     .deal2 p, .deal3 p, .deal4 p {
         font-family: 'Raleway';
@@ -286,10 +282,17 @@
         display: flex;
         width: 13px;
         margin-left: 20px;
+        
     }
     .aboutcontainer2{
         display: flex;
-        margin-left: 20px;
+        margin-left: 60px;
+        padding: 0px 20px;
+    }
+    .imagediv1{
+        margin-right: 20px;
+        position: relative;
+        top: 10%;
     }
     .aboutheader{
         color:#333333;
@@ -306,9 +309,6 @@
         color: #A1A6BA;
         width: 300px;
     }
-    .aboutcontainer table{
-        flex: 135%;
-    }
     td{
         padding: 0px 20px;
         Width: 320px;
@@ -321,16 +321,20 @@
     }
     #aboutpic{
         Height: 272px;
+        margin-bottom: 10px;
+    }
+    #aboutpicc{
+        margin-bottom: 10px;
     }
     .review {
-        Width:1344px;
-        Height: 854px;
         background-color: #F5F5F5;
         padding: 100px 100px;
         text-align: center;
+        margin-top: 100px;
     }
     .review h5{
         display: inline-block;
+        font-style: Bold;
         width: 506px;
         height: 124px;
         color: #333333;
@@ -366,8 +370,6 @@
     }
 
     footer{
-        width: 1344px;
-        height: 617px;
         background-color:#295251;
         padding: 100px 100px;
     }
@@ -385,7 +387,6 @@
         
     }
     .footerquote1{
-        font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
@@ -393,7 +394,7 @@
         color: #FFFFFF;
     }
     .footerquote2{
-        font-style: normal;
+        font-style: medium;
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
@@ -422,12 +423,14 @@
     }
     .footersubcontainer ul li a {
         text-decoration: none; 
+        font-family: 'Raleway';
         color: #FFFFFF;
         font-style: normal;
-        font-weight: 400;
         font-size: 18px;
         line-height: 21px;
         letter-spacing: 0.03em;
+        width: 45px;
+        height: 21px;
     }
 
    @media screen (max-width: 768px;) {
