@@ -195,8 +195,9 @@
     #subcontaineramount{
         display: flex;
         justify-content: space-between;
-        padding: 0px 30px;
+        padding: 0px 20px;
         margin: 10px;
+
     }
     #subprice{
         text-decoration: line-through;
@@ -418,7 +419,16 @@
     }
 
    @media screen (max-width: 768px;) {
-    body{ } 
-
+    body{
+        width:768px; 
+        padding: 0px 30px;
+    } 
+    .logo{
+        margin-left: 0px;
+        font-size: small;
+     } 
+     .navlinks{
+        margin-right: 300px;
+     }
 
    }
