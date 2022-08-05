@@ -5,7 +5,7 @@
  }
  body{
     font-family: 'Raleway';
-    /* font-style: normal; */
+    font-style: normal;
  }
     header {
         display: flex;
@@ -18,8 +18,6 @@
         height: 28px;
         margin-top: 10px;
         margin-left: 120px;
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
@@ -38,7 +36,6 @@
         padding: 0px 20px;
     }
     .navlinks li a {
-        font-family: 'Raleway';
         font-size: 20px;
         font-weight: 400;
         line-height: 23px;
@@ -47,7 +44,6 @@
         text-decoration: none;
     }
     .navbutton{ 
-        font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -111,7 +107,6 @@
             cursor: pointer;
         }
     .header2 {
-            font-family: 'Raleway';
             font-size: 34px;
             font-weight: 700;
             letter-spacing: 0em;
@@ -143,8 +138,6 @@
     }
     .miniheader ul li a{
         text-decoration: none;  
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 500;
         font-size: 18px; 
         color: #A1A6BA;
@@ -193,16 +186,17 @@
         background: rgba(196, 196, 196, 0.17);
     }
     #subcontainerheading{
-        font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 28px;
         cursor: pointer;
+        text-align: center;
     }
     #subcontaineramount{
         display: flex;
         justify-content: space-between;
-        width: 120px;
+        padding: 0px 30px;
+        margin: 10px;
     }
     #subprice{
         text-decoration: line-through;
@@ -228,17 +222,12 @@
         padding: 20px 20px;
     }
     .deal1 h3{
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 54px;
         line-height: 63px;
         color: #333333;
-        /* margin-left: 30px; */
     }
     .deal2 p, .deal3 p, .deal4 p {
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 600;
         font-size: 22px;
         line-height: 26px;
@@ -247,16 +236,16 @@
         top: 100px;   
     }
     #subdeals {
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
         color: #C4C4C4;
+
     }
     #subdeals img{
         position: absolute;
         top: -55px;
+        left: 40px;
         width: 20px ;
         height: 24px;
     }
@@ -265,15 +254,11 @@
         margin-left: 20px;
     }
     .about h4{
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 54px;
         color: #333333;
     }
     .about p{
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 500;
         font-size: 18px;
         color: #C4C4C4;
@@ -423,7 +408,6 @@
     }
     .footersubcontainer ul li a {
         text-decoration: none; 
-        font-family: 'Raleway';
         color: #FFFFFF;
         font-style: normal;
         font-size: 18px;
@@ -434,7 +418,7 @@
     }
 
    @media screen (max-width: 768px;) {
-    body{width:auto} 
+    body{ } 
 
 
    }
