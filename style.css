@@ -3,21 +3,19 @@
     margin: 0;
     padding: 0;
  }
- body{
+body{
     font-family: 'Raleway';
     font-style: normal;
  }
     header {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        padding: 20px 20px;
+        align-items: center;
+        padding: 25px 115px;
     }
     .logo {
         cursor: pointer;
-        height: 28px;
-        margin-top: 10px;
-        margin-left: 120px;
+        /* height: 28px; */
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
@@ -25,8 +23,7 @@
     .navlinks {
         display: flex;
         list-style-type: none;
-        margin-top: 12px;
-        margin-left: 200px;
+        padding-left: 70px;
         justify-content: space-between;
     }
     .navlinks li a:hover{ 
@@ -47,11 +44,11 @@
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        line-height: 21px;
+        /* line-height: 21px; */
         letter-spacing: 0.03em;
-        padding: 10px 5px;
+        padding: 10px 10px;
         background: #295251;
-        margin-right: 120px;
+        border-radius: 8%;
     }
     .navbutton a {
         color: #FFFFFF;
@@ -126,12 +123,11 @@
             }
     
     .miniheader ul{
-        display: inline-flex;
+        display: flex;
         justify-content: space-between;
         list-style: none;
         text-align: center;
-        position: relative;
-        left: 450px; 
+        padding: 0 30%;
     }
     .miniheader ul li{
         padding: 0px 25px;  
@@ -417,18 +413,72 @@
         width: 45px;
         height: 21px;
     }
+    .hamburger{
+        display:none;
+        
+    }
 
-   @media screen (max-width: 768px;) {
-    body{
-        width:768px; 
-        padding: 0px 30px;
+
+
+@media screen and (max-width: 768px) {
+    .hamburger{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        padding-right: 20%;
+        cursor: pointer;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 35px;
     } 
-    .logo{
-        margin-left: 0px;
-        font-size: small;
-     } 
-     .navlinks{
-        margin-right: 300px;
+    .logo{ 
+        /* padding-right: 50%; */
+        color: rgb(0, 38, 255);
+        font-size:xx-large;
      }
-
-   }
+    
+    .navlinks{
+        display: none;
+    }
+    .navbutton{
+        display:none;
+    }
+    h1{
+    font-size: 20%;
+    
+    }
+    #main-image {
+    width: 100%;
+    /* max-height: 50%; */
+    margin-left: 0;
+}
+    .main-page{
+        text-align: center;
+        margin: auto
+        width: 100%;
+    }
+    .header2{
+        margin-left: 5%;
+        padding-right:;
+    }
+    .subheader2{
+        position: relative;
+        top: 8px;
+        left: 100px;
+        
+    }
+    .header2container{
+        margin-top: 2%;
+        display: flex;
+        align-items: center;
+    }
+    .miniheader ul{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+}
