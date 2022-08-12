@@ -146,13 +146,13 @@ body{
     }
     .maincontainer1{
         display: flex;
-        padding: 20px 20px;
-        justify-content: space-evenly;
+        padding: 20px 100px;
+        justify-content: space-between;
         
 
     }
     .subcontainer1{
-        padding: 20px 40px;
+        padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer2{
@@ -162,15 +162,15 @@ body{
     .subcontainer3{
         padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
-    }
+    } 
     .maincontainer2{
         display: flex;
-        padding: 20px 0px ;
-        justify-content: space-evenly;
+        padding: 20px 100px ;
+        justify-content: space-between;
 
     }
     .subcontainer4{
-        padding: 20px 40px;
+        padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
     }
     .subcontainer5{
@@ -180,7 +180,7 @@ body{
     .subcontainer6{
         padding: 20px 50px;
         background: rgba(196, 196, 196, 0.17);
-    }
+    } 
     #subcontainerheading{
         font-weight: 600;
         font-size: 24px;
@@ -194,6 +194,10 @@ body{
         padding: 0px 20px;
         margin: 10px;
 
+    }
+    .subcontainerpic{
+        width: 183px; 
+        height: 290px;
     }
     #subprice{
         text-decoration: line-through;
@@ -436,11 +440,10 @@ body{
         /* max-width:min-content; */
     } 
     .logo{ 
-        color: rgb(0, 38, 255);
+        color: #295251;
         font-size:xx-large;
         
     }
-    
     .navlinks{
         display: none;
     }
@@ -480,17 +483,48 @@ body{
         position: relative;
         top: 8px;
         left: 100px;
-        
     }
     .header2container{
         margin-top: 2%;
         display: flex;
         align-items: center;
     }
-    .miniheader ul{
-        display: flex;
-        justify-content: center;
-        
-        
+    .miniheader ul li{
+        padding: 0px 5px;
     }
+    .miniheader ul li a{ 
+        font-weight: 500;
+        font-size: 12px; 
+       
+    }
+    .miniheader ul{
+        padding: 0 20%;
+
+    }
+    #subcontainerheading{
+        font-size: 12px;
+    }
+    .subcontainerpic{
+        width: 73px; 
+        height: 90px;
+    }
+    .maincontainer{
+        display: flex;
+    }
+    .maincontainer1{
+        padding: 1px 2px;
+        display: inline-block;   
+    }
+    .maincontainer2{
+        padding: 1px 1px;  
+        display: inline-block;  
+    }
+    #subcontaineramount p{
+        font-size: 10px;
+    }
+    .subcontainerpic{
+        padding-left: 30%;
+        border: 1px solid red;
+    }
+
 }
