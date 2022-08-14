@@ -374,7 +374,7 @@ body{
     }
     .footerquote1{
         font-weight: 700;
-        font-size: 24px;
+        font-size: 34px;
         line-height: 28px;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -400,26 +400,30 @@ body{
         list-style: none;
         color: #FFFFFF;
     }
-    .footersubcontainer ul li{
+    #footersubheading{
         padding: 5px;
-        font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 20px;
 
+    }
+    .footersubcontainer ul li{
+        padding: 5px;
+        font-size: 15px;
     }
     .footersubcontainer ul li a {
         text-decoration: none; 
         color: #FFFFFF;
-        font-style: normal;
-        font-size: 18px;
         line-height: 21px;
         letter-spacing: 0.03em;
         width: 45px;
         height: 21px;
     }
+    .footersubcontainer ul li a:hover{
+        color: powderblue;
+    }
+    
     .hamburger{
-        display:none;
-        
+        display:none;   
     }
 
 
@@ -476,6 +480,7 @@ body{
         width: 270px;
     }
     .header2{
+        font-size: 20px;
         margin-left: 5%;
         padding-right:;
     }
@@ -509,21 +514,137 @@ body{
         height: 90px;
     }
     .maincontainer{
-        display: flex;
+        /* display: flex; */
     }
     .maincontainer1{
-        padding: 1px 2px;
-        display: inline-block;   
+        padding: 0px 20px 10px 20px;
+        display: flex; 
+        align-items: center;  
     }
     .maincontainer2{
-        padding: 1px 1px;  
-        display: inline-block;  
+        padding: 0px 20px;  
+        display: flex;  
     }
     #subcontaineramount p{
         font-size: 10px;
     }
-    .subcontainerpic{
-        padding-left: 30%;
+    .subcontainer1{
+        padding: 5px 5px;
+        align-items: center;  
     }
-
+    .subcontainer2{
+        padding: 5px 10px;
+    }
+    .subcontainer3{
+        padding: 5px 10px;
+    }
+    .subcontainer4{
+        padding: 0px 10px;
+    }
+    .subcontainer5{
+        padding: 0px 10px;
+    }
+    .subcontainer6{
+        padding: 0px 8px;
+    }
+    .dealscontainer{
+        border: 1px solid black;
+        padding: 0px;
+    }
+    .maindeals{
+        margin-left: 0px;
+    }
+    .deal1 h3{
+        font-size: 20px;
+        line-height: 20px;  
+    }
+    #subdeals {
+        font-weight: 200;
+        font-size: 10px;
+    }
+    .deal2 p, .deal3 p, .deal4 p{
+        font-weight: 600;
+        font-size: 15px;
+        position: relative; 
+        top: 0px;
+    }
+    .about{
+        margin-left: 0px;
+    }
+    td{
+        /* padding: 0px; */
+    }
+    .about h4{
+        font-weight: 600;
+        font-size: 34px;
+    }
+    .about p{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .aboutheader{
+        font-size: 34px;
+    }
+    .aboutheader2{
+        font-size: 22px;
+    }
+    .aboutcontent{
+        font-size: 12px;
+        width: 130px;
+    }
+    tr{
+        padding: 0px 20px;
+    }
+    .aboutcontainer2{
+        display: none;
+    }
+    .review {
+        margin-top: 20px;
+        padding: 50px 50px;
+        padding-bottom: 100px;
+    }
+    .review h5{
+        font-size: 24px;
+        width: 256px;
+        height: 64px;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    .customerpic{
+        width: 300px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .customercontent{
+        width: 350px;
+        margin: 0px;
+    }
+    footer{
+        padding: 40px 40px;
+    }
+    h6{
+        width: 320px; 
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .footercontainer{
+        display: block;
+        margin-top: 30px;
+    }
+    .footersubcontainer{
+        margin-left: 0px;
+        flex: 100%;
+    }
+    .footerquote2{
+        margin: 10px;
+        font-weight: 200;
+    }
+    #footersubheading{
+        width: 115px;
+        padding: 0px;
+        
+    }
+    .maillogo{
+       display: flex;
+    }
 }
