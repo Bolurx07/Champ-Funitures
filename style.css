@@ -15,7 +15,6 @@ body{
     }
     .logo {
         cursor: pointer;
-        /* height: 28px; */
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
@@ -44,7 +43,6 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        /* line-height: 21px; */
         letter-spacing: 0.03em;
         padding: 10px 10px;
         background: #295251;
@@ -403,7 +401,7 @@ body{
     #footersubheading{
         padding: 5px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 18px;
 
     }
     .footersubcontainer ul li{
@@ -441,7 +439,6 @@ body{
         justify-content: space-between;
         padding: 25px 15px;
         border: 5px solid #295251;
-        /* max-width:min-content; */
     } 
     .logo{ 
         color: #295251;
@@ -482,7 +479,6 @@ body{
     .header2{
         font-size: 20px;
         margin-left: 5%;
-        padding-right:;
     }
     .subheader2{
         position: relative;
@@ -512,9 +508,6 @@ body{
     .subcontainerpic{
         width: 73px; 
         height: 90px;
-    }
-    .maincontainer{
-        /* display: flex; */
     }
     .maincontainer1{
         padding: 0px 20px 10px 20px;
@@ -548,7 +541,6 @@ body{
         padding: 0px 8px;
     }
     .dealscontainer{
-        border: 1px solid black;
         padding: 0px;
     }
     .maindeals{
@@ -570,9 +562,6 @@ body{
     }
     .about{
         margin-left: 0px;
-    }
-    td{
-        /* padding: 0px; */
     }
     .about h4{
         font-weight: 600;
@@ -618,6 +607,8 @@ body{
     .customercontent{
         width: 350px;
         margin: 0px;
+        font-size: 15px;
+        padding-bottom: 20px;
     }
     footer{
         padding: 40px 40px;
@@ -627,6 +618,9 @@ body{
         font-size: 28px;
         line-height: 36px;
     }
+    td{
+        padding: 0px;
+    }
     .footercontainer{
         display: block;
         margin-top: 30px;
@@ -634,17 +628,26 @@ body{
     .footersubcontainer{
         margin-left: 0px;
         flex: 100%;
+        
+    }
+    .footerquote1{
+        font-size: 25px;
     }
     .footerquote2{
         margin: 10px;
         font-weight: 200;
     }
     #footersubheading{
-        width: 115px;
+        width: 105px;
+        font-size: 16px;
         padding: 0px;
         
     }
     .maillogo{
        display: flex;
+      
+    }
+    .maillogo a{
+        font-size: 11px;
     }
 }
