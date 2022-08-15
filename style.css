@@ -142,6 +142,7 @@ body{
     #all{
         color: #333333;
     }
+
     .maincontainer1{
         display: flex;
         padding: 20px 100px;
@@ -165,7 +166,6 @@ body{
         display: flex;
         padding: 20px 100px ;
         justify-content: space-between;
-
     }
     .subcontainer4{
         padding: 20px 50px;
@@ -508,37 +508,43 @@ body{
     .subcontainerpic{
         width: 73px; 
         height: 90px;
+        padding-left: 20px;
+    }
+    .maincontainer{
+        padding-left: 20px;
     }
     .maincontainer1{
-        padding: 0px 20px 10px 20px;
-        display: flex; 
-        align-items: center;  
+        padding: 0px 20px;
+        display: inline-block;   
     }
     .maincontainer2{
         padding: 0px 20px;  
-        display: flex;  
+        display: inline-block;  
     }
     #subcontaineramount p{
         font-size: 10px;
     }
     .subcontainer1{
-        padding: 5px 5px;
-        align-items: center;  
+        padding: 5px 5px; 
+        margin-bottom: 10px; 
     }
     .subcontainer2{
         padding: 5px 10px;
+        margin-bottom: 10px; 
     }
     .subcontainer3{
         padding: 5px 10px;
     }
     .subcontainer4{
-        padding: 0px 10px;
+        padding: 5px 5px;
+        margin-bottom: 10px; 
     }
     .subcontainer5{
-        padding: 0px 10px;
+        padding: 5px 10px;
+        margin-bottom: 10px; 
     }
     .subcontainer6{
-        padding: 0px 8px;
+        padding: 5px 10px;
     }
     .dealscontainer{
         padding: 0px;
@@ -619,7 +625,7 @@ body{
         line-height: 36px;
     }
     td{
-        padding: 0px;
+        padding: 10px;
     }
     .footercontainer{
         display: block;
