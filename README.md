@@ -1,1 +1,1 @@
-Done with my HTML, i am about to proceed to CSS.
+Building a landing page for Champ, a furniture company.
